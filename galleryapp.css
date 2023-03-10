@@ -1,3 +1,20 @@
 h1 {
-    color: blue;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: large;
+    font-style: italic;
+
+}
+
+.pictures {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    gap: 2em;
+
 }
