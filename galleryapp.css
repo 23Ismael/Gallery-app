@@ -13,11 +13,11 @@ h1 {
 
 .pictures div {
   display: flex;
-  width: 90%;
-  height: 350px;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 80px;
-
+  width: 60%;
+  height: 250px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 14%;
   gap: 20%;
 }
