@@ -1,20 +1,23 @@
-h1 {
-    color: black;
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: large;
-    font-style: italic;
-
+*,
+*::before *::after {
+  box-sizing: border-box;
 }
 
-.pictures {
+h1 {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: large;
+  font-style: italic;
+}
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.pictures div {
+  display: flex;
+  width: 90%;
+  height: 350px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 80px;
 
-    gap: 2em;
-
+  gap: 20%;
 }
