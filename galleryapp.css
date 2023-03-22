@@ -1,23 +1,52 @@
 *,
-*::before *::after {
+*:before,
+*:after {
   box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+  text-transform: uppercase;
 }
 
 h1 {
   color: black;
   font-family: sans-serif;
-  font-weight: 200;
+  font-weight: 20;
   font-size: large;
   font-style: italic;
 }
 
-.pictures div {
+h2 {
+  color: black;
+  font-family: sans-serif;
+  font-weight: 20;
+  font-size: large;
+  font-style: italic;
   display: flex;
-  width: 60%;
-  height: 250px;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.pictures {
+  width: 70%;
+  margin: auto;
+
+  display: flex;
+  overflow: hidden;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 14%;
-  gap: 20%;
+  gap: 60px;
+
+  /* border: solid red 10px; */
+}
+
+.pictures img {
+  width: 40%;
+  margin-bottom: 25.4%;
 }
