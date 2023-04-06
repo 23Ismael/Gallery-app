@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 .links {
@@ -35,18 +35,16 @@ h2 {
 }
 
 .pictures {
-  width: 70%;
-  margin: auto;
-
   display: flex;
-  overflow: hidden;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 60px;
 
   /* border: solid red 10px; */
 }
 
 .pictures img {
-  width: 40%;
-  margin-bottom: 25.4%;
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  margin-bottom: 5%;
 }
