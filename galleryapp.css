@@ -22,6 +22,7 @@ h1 {
   font-weight: 20;
   font-size: large;
   font-style: italic;
+  text-decoration: underline;
 }
 
 h2 {
